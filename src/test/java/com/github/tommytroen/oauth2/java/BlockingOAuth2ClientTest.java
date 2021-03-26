@@ -4,10 +4,12 @@ import com.github.tommytroen.oauth2.BlockingOAuth2Client;
 import com.github.tommytroen.oauth2.TokenExchangeGrant;
 import kotlin.jvm.functions.Function1;
 import org.jetbrains.annotations.NotNull;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 public class BlockingOAuth2ClientTest {
 
+    @Disabled
     @Test
     void test() {
 
